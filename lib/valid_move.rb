@@ -2,7 +2,7 @@
 def valid_move?(board, input)
   if input > 9 || input < 1
     return false
-  elsif position_taken?
+  elsif position_taken?(board, input) == true
     return false
   else
     return true
