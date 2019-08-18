@@ -1,5 +1,5 @@
 # code your #valid_move? method here
-def valid_move?( input)
+def valid_move?(input)
   if input > 9 || input < 1
     return false
   elsif position_taken?
